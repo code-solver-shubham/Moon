@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Her Moon 🌙</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;font-family:Georgia,serif;color:#f5f3ff;background:#02040b}
+body{overflow-x:hidden}.sky{position:fixed;inset:0;background:radial-gradient(circle at 50% 25%,#1a2140 0,transparent 35%),linear-gradient(#02030a,#080c1c 60%,#02040b);z-index:-2}
+.sky:before{content:"";position:absolute;inset:0;background-image:radial-gradient(#fff 1px,transparent 1.5px),radial-gradient(#b9c8ff 1px,transparent 1.5px);background-size:83px 97px,137px 151px;background-position:12px 20px,48px 70px;opacity:.75;animation:tw 5s infinite alternate}
+@keyframes tw{to{opacity:1}}main{width:min(900px,92%);margin:auto}.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}.moon{width:160px;height:160px;border-radius:50%;cursor:pointer;background:radial-gradient(circle at 30% 28%,#fff 0 7px,transparent 8px),radial-gradient(circle at 68% 40%,#aeb0ba 0 11px,transparent 12px),radial-gradient(circle at 42% 67%,#aaaeb9 0 15px,transparent 16px),linear-gradient(145deg,#fffdf4,#d5d7df);box-shadow:0 0 30px 12px #dbe1ff2a,0 0 100px 30px #b8c4ff18;animation:float 6s ease-in-out infinite;transition:.4s}
+.moon:hover{transform:scale(1.05)}@keyframes float{50%{translate:0 -10px}}.kicker{font:12px Arial,sans-serif;letter-spacing:4px;text-transform:uppercase;color:#aeb8dc;margin:35px 0 18px}h1{font-size:clamp(3rem,10vw,6rem);font-weight:400;line-height:.9;margin:0}h1 span{display:block;color:#dce4ff}.sub{max-width:620px;color:#b9bfd2;line-height:1.8;margin:25px 0}.hint{font:13px Arial;color:#9fa8c7;letter-spacing:1px;margin-top:25px;animation:p 1.6s infinite alternate}@keyframes p{to{opacity:.4}}.card{margin:20px 0 70px;padding:35px 24px;border:1px solid #dbe1ff1c;border-radius:24px;background:#090d1dcc;backdrop-filter:blur(10px);box-shadow:0 20px 80px #0008}.card h2{text-align:center;font-weight:400;font-size:clamp(1.7rem,5vw,2.5rem);margin-top:0}.letter{max-width:720px;margin:auto;color:#d5d8e6;font-size:1.05rem;line-height:2}.letter p{margin:0 0 20px}.quote{text-align:center;color:#f4efff;font-size:1.35rem;font-style:italic;margin:32px 0}.line{width:65px;height:1px;background:#e7eaff55;margin:30px auto}button{display:block;margin:28px auto 0;padding:13px 23px;border:1px solid #e5e8ff44;border-radius:99px;background:#ffffff0d;color:white;font:inherit;cursor:pointer}button:hover{background:#ffffff18}.secret{display:none;text-align:center;color:#d8dcef;line-height:2;margin:28px auto 0;max-width:650px}.secret.show{display:block;animation:in .8s}@keyframes in{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}footer{text-align:center;color:#747d9c;font:11px Arial;letter-spacing:2px;padding-bottom:50px}
+</style>
+</head>
+<body>
+<div class="sky"></div>
+<main>
+<section class="hero">
+<div class="kicker">gift 01 · for the girl who loves the moon</div>
+<div class="moon" id="moon" title="Tap me"></div>
+<h1>Her Moon<span>🌙</span></h1>
+<p class="sub">For the nights when the world felt too loud, people didn't understand, and somehow looking up was enough.</p>
+<div class="hint" id="hint">tap the moon when you're ready</div>
+</section>
+
+<section class="card">
+<h2>For the girl who found peace in the sky</h2>
+<div class="letter">
+<p>Divuu, mujhe nahi pata ki moon ko dekhte waqt aap exactly kya feel karti ho… but mujhe itna pata hai ki aapke liye moon sirf aasman mein chamakti hui ek cheez nahi hai.</p>
+<p>Jab aap sad hoti thi, jab koi aapko samajh nahi pata tha, jab baar-baar sabko kuch prove karna thaka deta tha… tab aapne moon ko choose kiya. Aap usse dekhti rahi. Uske saath thoda waqt bitaya. Aur shayad bina kuch kahe usne aapko woh peace diya jo us waqt duniya nahi de paayi.</p>
+<p>Slowly, moon dekhna sirf ek habit nahi raha. Woh aapka little escape ban gaya. Aapki loneliness mein company, aapki sadness mein silence, aur aapke worst moments mein ek chhota sa reason to look up.</p>
+<div class="line"></div>
+<p class="quote">“Jab duniya samajh nahi paayi,<br>toh aapne aasman ko dekhna seekh liya.”</p>
+<div class="line"></div>
+<p>Isliye aaj main aapko moon nahi de sakta… kyunki woh already aapka hai. 🌙</p>
+<p>Bas ek chhoti si cheez de sakta hoon — ek aisi jagah jahan jab bhi aap moon dekho, aapko yaad aaye ki kahin na kahin ek insaan hai jo chahta hai ki aapko kabhi khud ko akela samajhne ki zarurat na pade.</p>
+<p>Aapko har baar sabko prove karne ki zarurat nahi hai. Har baar strong banne ki zarurat nahi hai. Kabhi-kabhi bas moon ko dekhna bhi enough hai.</p>
+<p>And if one night you look at it and feel a little less lonely… then this little gift has done what I wanted it to do.</p>
+<p>Because if moon is your peace, your happiness, and your little escape… then I want to remind you that <b>you deserve that same peace in real life too.</b></p>
+</div>
+<button id="btn">One last thing… 🌙</button>
+<div class="secret" id="secret">
+<p>Maybe you looked at the moon because it was always there.</p>
+<p>But whenever you look at it now, I hope you remember this:</p>
+<p class="quote">“Aap moon ko dekh kar peace paati ho…<br>aur mujhe aapko khush dekh kar.” ❤️</p>
+<p>So whenever the world gets heavy, look up.</p>
+<p>And somewhere under that same moon… I'll be thinking of you too.</p>
+<p>— aapka Shubham 🫂</p>
+</div>
+</section>
+<footer>01 / 23 · for Divuu · 13 January → 10 October</footer>
+</main>
+<script>
+const moon=document.getElementById('moon'),hint=document.getElementById('hint'),btn=document.getElementById('btn'),secret=document.getElementById('secret');
+moon.onclick=()=>{hint.textContent='the moon heard you 🌙';document.querySelector('.card').scrollIntoView({behavior:'smooth'})};
+btn.onclick=()=>{secret.classList.toggle('show');btn.textContent=secret.classList.contains('show')?'Keep this with you ❤️':'One last thing… 🌙'};
+</script>
+</body>
+</html>
